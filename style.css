@@ -1,5 +1,7 @@
 .container {
-    
+    display: inline;
+    width: 1500px;
+    height: 900px;
 }
 
 .game-container{
@@ -14,6 +16,14 @@
     grid-template-rows: repeat(3, 1fr);
     
 
+}
+#keys{
+    width: 125px;
+    height: 125px;
+}
+#instructions{
+    display: flex;
+    text-align: center;
 }
 .olive{
     width: 200px;
